@@ -28,14 +28,11 @@ Projeyi kendi yerel ortamınızda çalıştırmak için aşağıdaki adımları 
 1. Repoyu klonlayın:
    ```bash
    git clone [https://github.com/meryep/rag-chatbot-project.git](https://github.com/meryep/rag-chatbot-project.git)
-2. Kütüphaneleri Kurun
+
    pip install -r requirements.txt
    
-4. .env dosyanızı oluşturun ve gerekli API anahtarlarınızı (örn. Groq API Key) ekleyin.
+2. .env dosyanızı oluşturun ve gerekli API anahtarlarınızı (örn. Groq API Key) ekleyin.
 
-Kurumunuza özel verileri /data klasörüne yerleştirin.
+3.Kurumunuza özel verileri /data klasörüne yerleştirin.
 
-Uygulamayı başlatın:
-
-Bash
-python main.py
+4.Uygulamayı başlatın:python main.py
